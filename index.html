@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Survey</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Stuff</h1>
+
+      <div class="blanks">
+        <form>
+
+          <div class="form-group">
+            <label for="fullname">Your Full Name</label>
+            <input id="fullname" type="text" name="name" value="">
+          </div>
+
+          <div class="radio">
+
+  <!-- FAVORITE MUSIC -->
+            <h4>Please select your favorite music</h4>
+            <label>
+              <input id="radios1" type="radio" name="music" value="rock">
+              Rock
+            </label>
+          </div>
+
+          <div class="radio">
+            <label>
+              <input id="radios2" type="radio" name="music" value="country">
+              Country
+            </label>
+          </div>
+
+          <div class="radio">
+            <label>
+              <input id="radios3" type="radio" name="music" value="hiphop">
+              Hip-Hop
+            </label>
+          </div>
+
+          <div class="radio">
+            <label>
+              <input id="radios4" type="radio" name="music" value="none" checked>
+              None of the above
+            </label>
+          </div>
+
+  <!-- FAVORITE FOOD -->
+          <!-- <h4>Please check a few of your favorite foods:</h4>
+          <div class="food">
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="">
+                Thai
+              </label>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="">
+                Mexican
+              </label>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="">
+                'Merican
+              </label>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="">
+                Euro
+              </label>
+            </div>
+          </div> -->
+          <button type="submit" class="btn btn-info" name="button">Submit Survey</button>
+        </form>
+        <div class="surveyresults">
+          <h3>Your Survey Results</h3>
+          <p>
+            Based on the survey you completed, you noted that your favorite music was <span class="musicresult"></span>
+          </p>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+      </div> <!-- /blanks-->
+    </div>  <!-- /CONTAINER -->
+  </body>
+</html>
